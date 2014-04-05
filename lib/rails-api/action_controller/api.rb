@@ -100,6 +100,7 @@ module ActionController
       def allow_forgery_protection=(*); end
       def helper_method(*); end
       def helper(*); end
+      def protected_instance_variables; []; end;
     end
 
     extend Compatibility
